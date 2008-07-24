@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_player", "test_player\test_player.vcproj", "{A71DD3C1-7F77-4F97-9C8A-7FE9F3F795C3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "player", "player\player.vcproj", "{B9AA2C53-5D61-483C-858C-930995C599A8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A71DD3C1-7F77-4F97-9C8A-7FE9F3F795C3}.Debug.ActiveCfg = Debug|Win32
+		{A71DD3C1-7F77-4F97-9C8A-7FE9F3F795C3}.Debug.Build.0 = Debug|Win32
+		{A71DD3C1-7F77-4F97-9C8A-7FE9F3F795C3}.Release.ActiveCfg = Release|Win32
+		{A71DD3C1-7F77-4F97-9C8A-7FE9F3F795C3}.Release.Build.0 = Release|Win32
+		{B9AA2C53-5D61-483C-858C-930995C599A8}.Debug.ActiveCfg = Debug|Win32
+		{B9AA2C53-5D61-483C-858C-930995C599A8}.Debug.Build.0 = Debug|Win32
+		{B9AA2C53-5D61-483C-858C-930995C599A8}.Release.ActiveCfg = Release|Win32
+		{B9AA2C53-5D61-483C-858C-930995C599A8}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

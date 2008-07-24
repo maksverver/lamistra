@@ -1,0 +1,76 @@
+body {
+    margin: 1.5em;
+    font:  10pt Arial;
+    background: white;
+}
+
+h1 {
+    color: #FF6030;
+}
+
+h2 {
+    color: #C03015;
+    margin: 0;
+}
+
+.code {
+    white-space: pre; 
+    font-family: monospace;
+}
+
+p.quote {
+    font-style: italic;
+}
+
+span.title {
+    border-bottom: dotted gray;
+}
+
+div.box {
+    border: lightgrey dashed 1px;
+    padding: 1em;
+    margin-bottom: 1em;
+    
+    width: 580px;
+}
+
+div.tile {
+    height: 40px;
+    width: 40px;
+    border: 1px solid #164816;
+    text-align: center;
+}
+
+#field_00, #field_10, #field_20, #field_30, #field_40, #field_50, #field_60 {
+    border-left: 2px solid #2c902c;
+}
+
+#field_60, #field_61, #field_62, #field_63, #field_64, #field_65, #field_66 {
+    border-top: 2px solid #2c902c;
+}
+
+#field_06, #field_16, #field_26, #field_36, #field_46, #field_56, #field_66 {
+    border-right: 2px solid #164816;
+}
+
+#field_00, #field_01, #field_02, #field_03, #field_04, #field_05, #field_06 {
+    border-bottom: 2px solid #164816;
+}
+
+div.footer {
+    text-align: center; color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: #8080FF
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table caption, .caption {
+    font-weight: bold;
+    font-variant: small-caps;
+}
